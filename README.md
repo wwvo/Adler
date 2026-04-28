@@ -10,6 +10,7 @@
 | -------------------------------------------------------- | ---------------------- | --------------------------------------------------------------------- |
 | [cargo-nextest](https://nexte.st)                        | 下一代 Rust 测试运行器 | [nextest-rs/nextest](https://github.com/nextest-rs/nextest)           |
 | [cargo-machete](https://github.com/bnjbvr/cargo-machete) | 检测未使用的 Rust 依赖 | [bnjbvr/cargo-machete](https://github.com/bnjbvr/cargo-machete)       |
+| [choose](https://github.com/theryangeary/choose)         | cut/awk 的现代替代     | [theryangeary/choose](https://github.com/theryangeary/choose)         |
 | [release-plz](https://release-plz.dev)                   | 自动化 Rust crate 发布 | [release-plz/release-plz](https://github.com/release-plz/release-plz) |
 
 ## 使用方法
@@ -21,10 +22,11 @@ scoop bucket add adler https://github.com/wwvo/Adler
 # 安装工具
 scoop install adler/cargo-nextest
 scoop install adler/cargo-machete
+scoop install adler/choose
 scoop install adler/release-plz
 
 # 更新工具
-scoop update cargo-nextest cargo-machete release-plz
+scoop update cargo-nextest cargo-machete choose release-plz
 ```
 
 ## 贡献
